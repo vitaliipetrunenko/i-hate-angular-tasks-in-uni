@@ -1,0 +1,15 @@
+{
+  "name": "comp1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc 1лабаКомп && node 1лабаКомп "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.4.3"
+  }
+}
