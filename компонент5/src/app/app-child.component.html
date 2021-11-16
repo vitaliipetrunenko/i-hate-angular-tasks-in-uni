@@ -1,0 +1,11 @@
+<!-- <span>min: {{ min }} max: {{ max }} <br />max - min = {{ max - min }}</span>
+<br /> -->
+<!-- <span>{{ procText }}</span>
+<br />
+<span>{{answer  }}</span> -->
+
+<li *ngFor="let item of someInput">
+    {{ item.name }}  <br />pressure:{{ item.air_pressure }}<br />
+    temp:{{ item.the_temp }} <br />humidity:{{ item.humidity }}<br />
+    wind speed:{{ item.wind_speed }}
+  </li>
